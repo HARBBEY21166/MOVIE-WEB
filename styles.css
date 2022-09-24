@@ -1,0 +1,306 @@
+/*BACKGROUND*/
+body{
+    background-image: url("../img/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*BACKGROUND*/
+
+/*HEADER*/
+#Anchor a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*header{
+    border-bottom: 4px solid black;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}*/
+
+#Anchor li{
+    display: inline;
+    /*float: left;*/
+    padding: 0 20px 0 20px;
+    border-bottom: 7px solid blue;
+}
+
+#branding h1{
+    margin: 0;
+}
+
+#branding img{
+    float: right;
+
+}
+
+nav{
+   /* float: right;*/
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#Anchor a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+#Anchor .current a{
+    color: orange;
+    font-weight: bold;
+}
+
+/*HEADER*/
+h1{
+    color: blueviolet;
+    font-size: 50px;
+   /* margin-left: 10px;*/
+}
+
+.personal{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    margin: 20px;
+}
+
+input{
+    text-align: center;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid gold;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    transition: border 0.5s;
+    padding: 10px 0;
+    outline: none;
+}
+
+#border{
+    border:rgb(219, 247, 4) double;
+    background-color: grey;
+    width:450px;
+    margin: auto;
+    color: rgb(5, 1, 23);
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center; 
+    margin-bottom: 50px;  
+}
+
+.button_1, button{
+    border-radius: 40px;
+    width: 200px;
+    padding:10px;
+    background-color: gold;
+    cursor: pointer;
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+    border: none;
+}
+
+.button_1:hover{
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: rgb(27, 28, 28);
+} 
+
+.logsignin{
+    color: gold;
+}
+
+img{
+    width: 310px;
+}
+
+.highlight{
+    color: blue;
+    font-weight: bold;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    border-top: 4px solid black;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    color: rgb(37, 35, 37);
+}
+
+.list{
+   background-color: #fff;
+    margin-top: 100px;
+    width: 1250px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+#frequent{
+    background-color: #fff;
+    margin-top: 100px;
+    width: 1350px;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.asphalt{
+    padding: 50px;
+}
+
+.asp{
+  padding: 50px;
+}
+
+h3{
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+h4{
+    margin-left: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+textarea{
+    margin-left: 30px;
+}
+
+#send{
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+div #door{
+   /* background-color: blue;*/
+    width: 500px;
+    height: 650px;
+    border: solid black 50px;
+    padding: 20px;
+    margin: 0;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+
+.a{
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+    margin: 15px 0 15px 0; 
+    border-radius: 50px 5px 50px 5px;
+    filter: blur(7px);
+}
+
+.b{
+    background-color: rgb(135, 191, 31);
+    width: 500px;
+    height: 200px;
+    margin: 15px 0 15px 0;
+    border-radius: 50px 5px 50px 5px;
+    filter: blur(7px);
+}
+
+.c{
+    background-color: rgb(191, 21, 21);
+    width: 500px;
+    height: 200px;
+    margin: 15px 0 15px 0; 
+    border-radius: 50px 5px 50px 5px;
+    filter: blur(7px);
+}
+
+#door1{
+    /* background-color: blue;*/
+     width: 500px;
+     height: 650px;
+     border: solid black 50px;
+     padding: 20px;
+     margin: 0;
+     border-radius: 50px;
+ }
+
+
+.d{
+    background-image: url(../img/asphalt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    margin: 15px 0 15px 0; 
+}
+
+.e{
+    background-image: url(../img/callofduty.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    margin: 15px 0 15px 0; 
+}
+
+.f{
+    background-image: url(../img/shadowfight3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    margin: 15px 0 15px 0; 
+}
+
+#sep{
+    display: flex;
+    gap: 60px;
+}
+
+.aa{
+    background-color: rgb(255, 0, 0);
+    width: 500px;
+    height: 50px;
+    margin: 15px 0 15px 0; 
+}
+
+.bb{
+    background-color: rgb(0, 255, 0);
+    width: 500px;
+    height: 50px;
+    margin: 15px 0 15px 0; 
+}
+
+.cc{
+   /* background: ;*/
+    width: 500px;
+    height: 50px;
+    margin: 15px 0 15px 0; 
+}
+
+div #marker{
+     padding: 20px;
+     margin: 0;
+     margin-left: 5px;
+ }
+ 
+ #search{
+    float: right;
+ }
