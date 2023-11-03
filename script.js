@@ -33,7 +33,7 @@ const product = [
     id: 16,
     image: 'https://i.pinimg.com/236x/12/42/2d/12422db4398ec5c2537cc0e5f8b96435.jpg',
     title: 'Gran Turismo (2023)',
-    link: '/movies.html/gran_turismo.html',
+    link: 'gran_turismo.html',
   },
   
   {
