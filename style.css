@@ -8,9 +8,67 @@
 
 body {
   margin: 1vh;
+  /*background-color: rgba(217,181,127,255);*/
 }
 
-.loading-container {
+.loading_display{
+  position: absolute;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  /*background: #333333;*/
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 120px;
+  height: 120px;
+  /*border: 15px solid #dddddd;
+  border-top-color: #009578;*/
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  0%{
+    rotate: 0deg;
+    box-shadow: 5px 5px 5px rgba(253, 39, 39, 1);
+  }
+  
+  50%{
+    rotate: 180deg;
+    box-shadow: 5px 5px 5px rgba(23, 198, 149, 1);
+  }
+  
+  100%{
+    rotate: 360deg;
+    box-shadow: 5px 5px 5px rgba(198, 181, 23, 1);
+  }
+  /*from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }*/
+}
+
+
+/*.loading-container {
   top: 0;
   left: 0;
   position: fixed;
@@ -49,7 +107,7 @@ body {
     box-shadow: 5px 5px 5px red;
   }
 }
-
+*/
 #header div {
   display: flex;
   align-items: center;
@@ -67,6 +125,44 @@ body {
   background-image: url(popcorn_cine_logo.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.trailer{
+  /*border: 2px solid blue ;*/
+}
+
+.title{
+  font-size: 25px;
+}
+
+.description{
+  text-align: center;
+  border: 3px solid black ;
+  margin-top: 20px;
+}
+
+.description p{
+ padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.download{
+  height: 50px;
+  width: 170px;
+  border-radius: 50px;
+  background: #42445A;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.download:hover{
+  font-weight: bolder;
+  background: #d9b57f;
+  color: black;
 }
 
 #menu {
